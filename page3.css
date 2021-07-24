@@ -1,0 +1,48 @@
+body{
+    background-color:cornsilk;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+
+}
+.container .heading {
+    font-size: 3rem;
+    margin: 2rem,0;
+    text-transform: capitalize;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: .2rem;
+    text-align: center;
+    text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+}
+.details{
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: medium;
+}
+
+.back{
+    margin-left: 50%;
+    align-items: center;
+    padding-top: 20px;
+}
+.back a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 6px;
+    padding: 5px;
+    font-size: medium;
+    
+}
+.back a:hover{
+    background-color: brown;
+}
